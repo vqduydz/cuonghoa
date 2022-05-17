@@ -1,0 +1,81 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô phỏng cường hóa</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <!-- <label for="">Cấp cường hóa hiện tại</label>
+        <div class="vl-ch">
+            <div class="ch">0</div>
+            <div class="ch">1</div>
+            <div class="ch">2</div>
+            <div class="ch">3</div>
+            <div class="ch">4</div>
+            <div class="ch">5</div>
+            <div class="ch">6</div>
+            <div class="ch">7</div>
+            <div class="ch">8</div>
+            <div class="ch">9</div>
+            <div class="ch">10</div>
+            <div class="ch">11</div>
+            <div class="ch">12</div>
+        </div> -->
+
+        <label for="a">Chọn đá CH:</label>
+        <select name="a" id="a" onchange="xuatA()">
+            <option value="0">Để trống</option>
+            <option value="4">Đá 1</option>
+            <option value="16">Đá 2</option>
+            <option value="64">Đá 3</option>
+            <option value="256">Đá 4</option>
+            <option value="1024">Đá 5</option>
+        </select>
+    
+        <label for="b">Chọn đá CH:</label>
+        <select name="b" id="b" onchange="xuatB()">
+            <option value="0">Để trống</option>
+            <option value="4">Đá 1</option>
+            <option value="16">Đá 2</option>
+            <option value="64">Đá 3</option>
+            <option value="256">Đá 4</option>
+            <option value="1024">Đá 5</option>
+        </select>
+    
+        <label for="c">Chọn đá CH:</label>
+        <select name="c" id="c" onchange="xuatC()">
+            <option value="0">Để trống</option>
+            <option value="4">Đá 1</option>
+            <option value="16">Đá 2</option>
+            <option value="64">Đá 3</option>
+            <option value="256">Đá 4</option>
+            <option value="1024">Đá 5</option>
+        </select>
+    
+        <label for="bua-mm">Bùa May Mắn <input type="checkbox" name="" id="bua-mm" onclick="clBmm()"></label>
+        <label for="bua-mt">Bùa Ma Thuật <input type="checkbox" name="" id="bua-mt"></label>
+        <label for="">Tỉ Lệ Thành Công <input style="width :50px;" class="phan-tram-ch" type="text" placeholder="%" disabled></label>
+        <button onclick="cuongHoa()">Cường Hóa</button>
+        <label for=""><input style="width :100%;" class="thong-bao" type="text" placeholder="....." disabled></label>
+    
+    
+        <!-- <img class="thanh-cong" src="./tc.jfif" alt="">
+        <img class="that-bai" src="./tb.jpg" alt=""> -->
+    </div>
+    
+    
+    <script src="./main.js"></script>
+    <!-- <script src="./tmp.js"></script> -->
+</body>
+</html>
